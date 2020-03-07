@@ -8,9 +8,9 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
-/* Class instructions */
 .head-box,
 .nav-box,
 .section-box,
@@ -19,20 +19,64 @@ body {
     background: #ebebeb;
 }
 
+.head-box,
+.nav-box,
+.footer-box {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
 .art-box {
     color: #ebebeb;
     background: #777;
+    width: 95%;
+    height: 200px;
+    position: absolute;
+    top: 27.5%;
+    left: 2.5%;
 }
 
 .heading-box,
 .p-box {
     color: #777;
     background: #ebebeb;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+}
+
+.heading-box {
+    top: 27.5%;
+}
+
+.p-box {
+    top: 60%;
 }
 
 .section-box {
     width: 495px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    position: relative;
 }
 
+.aside-box {
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-box {
+    clear: both;
+}
 
 
